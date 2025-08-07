@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+}
+
+input, select, textarea {
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 4px;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+h1, h2, h3 {
+  color: #02123e;
+}
+/* Home.module.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('./assets/background.jpg'); /* ✅ correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+.navabr {
+  display: flex;
+  gap: 20px; /* ✅ adds space between links */
+  padding: 10px 20px;
+}
+
+.navabr a {
+  text-decoration: navajowhite;
+  color: #080101;
+  font-weight: 500;
+}
+
+.navabr a:hover {
+  color: #020910;
+}
+.donate-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  max-width: 500px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.donate-form-container h2 {
+  margin-bottom: 20px;
+  color: #001f4d;
+}
+
+.donate-form-container input,
+.donate-form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.donate-form-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #004aad;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body {
+  font-weight: bold;}
+ .navabr {
+  background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+  padding: 12px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* space between links */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border-bottom: 2px solid #ffffff33; /* Optional line for separation */
+}
+
+.navabr a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.navabr a:hover {
+  background: #ffffff33;
+  color: #ffd700;
+}
+
